@@ -1,4 +1,16 @@
 aid: fanatics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fanatics.png
 name: Fanatics
 description: 'Fanatics is a company surfaced as a portfolio company of softbank-vision-fund, thrive-capital
   and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
@@ -13,10 +25,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Sports
+- Retail
+- Ecommerce
+- Merchandise
+- Collectibles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +41,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fanatics-domain-security.yml
 - type: Website
   url: https://www.fanatics.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
