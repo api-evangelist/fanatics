@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "fanatics",
+    "captured_at": "2026-10-11T185714",
+    "source_url": "https://www.fanatics.com",
+    "source_type": "Website",
+    "file": "fanatics-2026-10-11T185714.png",
+    "bytes": 20470,
+    "capture": "playwright-local"
+  }
+]
